@@ -1,0 +1,79 @@
+.form {
+	display: block;
+    width: 400px;
+  	margin-left: auto;
+  	margin-right: auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.text {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	font-weight: normal;
+	font-size: 20px;
+	color: black;
+}
+
+.inputtext {
+	margin-left: 20px;
+	width: 250px;
+	height: 35px;
+	font-size: 15px;
+	border-radius: 10px;
+	border: none;
+	background-color: #dff0ff;
+	opacity: 0.9;
+}
+
+.checkbox {
+	margin-left: 20px;
+	gap: 5px;
+}
+.checkbox input {  
+	width: 25px;
+	height: 25px;
+}
+
+.checkbox label {
+	position: relative;
+	bottom: 7px;
+	left: 5px;
+	
+}
+
+.inputtextarea {
+	margin-left: 20px;
+	width: 350px;
+	height: 100px;
+	border-radius: 10px;
+	background-color: #dff0ff;
+	border: none;
+	opacity: 0.9;
+	font-size: 15px;
+}
+
+.buttons {
+	margin-left: 15px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.buttons input {
+	margin-right: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: #93f58b;
+}
+
+.buttons input:hover {
+	background-color: #13ff00;
+}
+
+
+.buttons input:last-child {
+	background-color: #ffafaf;
+}

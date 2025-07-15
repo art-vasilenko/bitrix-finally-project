@@ -1,0 +1,41 @@
+*:after {
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+    margin: 0;
+    font-family: 'Open Sans';
+}
+
+p {
+    margin: 0;
+}
+
+/* HEADER */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 40px 160px;
+}
+
+.header_logo {
+    width: 390px;
+    height: 72px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 150px
+}
+
+.line {
+    margin-top: 80px;
+}
+
+.foot-text {
+    margin: 65px 0;
+    line-height: 1.6;
+    font-size: 20px;
+    font-weight: 400;
+}
